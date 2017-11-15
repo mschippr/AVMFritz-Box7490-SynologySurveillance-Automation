@@ -1,0 +1,1 @@
+# AVMFritz-Box7490-SynologySurveillance-Automation
