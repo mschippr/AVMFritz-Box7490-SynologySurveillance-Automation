@@ -43,7 +43,8 @@ function checkAllDevices($ipList,$macList){
 			foreach($macList as $mac){
 				$resultCheck = checkDevice($ip,$mac);
 				if($resultCheck == 1){
-						$result = 1;
+					$result = 1;
+					break 2;
 				}
 			}
         }
