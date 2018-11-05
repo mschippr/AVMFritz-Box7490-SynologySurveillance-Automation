@@ -1,5 +1,7 @@
 AVMFritz-Box7490-SynologySurveillance-Automation
 
+REQUIREMENTS: PHP7 from Synology Package Manager.
+
 Script makes soap queries to a list of AVM Fritz!Box routers to find out if a list of MAC addresses are active on the WiFi network. The PHP script has been written to accept at least one MAC but more can be added with a space
 
 The shell script uses API calls to switch the HOME MODE option based on the result from the SOAP response.
@@ -13,3 +15,5 @@ The script will perform a retry on leaving home mode just to ensure there is not
 Edit Switch_Homemode.sh configuration as requred.
 
 Syntax: Switch_Homemode.sh MAC1 MAC2
+
+P.S. I've added this on my Synology WEBUI to the Task Scheduler for easier management.
