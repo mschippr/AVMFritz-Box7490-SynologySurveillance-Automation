@@ -5,9 +5,9 @@ SYNO_SS_USER="api_user";
 SYNO_SS_PASS="pass";
 SYNO_URL="192.168.1.1:5000";
 FRITZ_URL='192.168.1.2:192.168.1.3';
-STATEFILE='/tmp/synohomemode.state';
-RETRYFILE='/tmp/synohomemode.retry';
-CHECKFRITZ='/usr/bin/php /bin/fritz_activemac.php';
+STATEFILE='/var/services/homes/api_user/synohomemode.state';
+RETRYFILE='/var/services/homes/api_user/synohomemode.retry';
+CHECKFRITZ='/usr/local/bin/php70 /var/services/homes/webhook_user/fritz_activemac.php';
 
 ######### Internal variables ############
 MACS=$@;
