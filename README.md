@@ -15,3 +15,5 @@ The script will perform a retry on leaving home mode just to ensure there is not
 Edit Switch_Homemode.sh configuration as requred.
 
 Syntax: Switch_Homemode.sh MAC1 MAC2
+
+Syntax in Synology Task Scheduler: bash /var/services/homes/api_user/switch_homemode.sh MAC1 MAC2
