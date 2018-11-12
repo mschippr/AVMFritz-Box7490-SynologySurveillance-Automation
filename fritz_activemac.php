@@ -1,4 +1,4 @@
-#!/usr/bin/php
+#!/usr/local/bin/php70
 
 <?php
 if(empty($argv[1])){
